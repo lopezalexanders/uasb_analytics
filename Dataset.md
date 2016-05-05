@@ -1,1 +1,43 @@
 #Dataset
+
+CONSUMO DE ALCOHOL EN ESTUDIANTES
+
+#Atributos para tanto el estudiante - mat.csv (curso de Matemáticas) y el estudiante - por.csv ( curso de portugués ) conjuntos de datos :
+
+1 school - Escuela del Estudiante (binary: "GP" - Gabriel Pereira or "MS" - Mousinho da Silveira)
+2 sex - sexo del estudiante (binary: "F" - female or "M" - male)
+3 age - edad del estudiante (numeric: desde 15 a 22)
+4 address - tipo de vivienda del estudiante (binary: "U" - urbano or "R" - rural)
+5 famsize - Tamaño de la familia (binary: "LE3" - menor o igual a 3 o "GT3" - mayor que 3)
+6 Pstatus - Situación de Vivienda de los padres (binary: "T" - viven justos o "A" - separados)
+7 Medu - educación de la madre (numeric: 0 - ninguna,  1 - educación primaria (4th grade), 2 – 5th a 9th grado, 3 – educación secundaria or 4 – educación mas alta)
+8 Fedu - educación del padre (numeric: 0 - ninguno,  1 - educación primaria (4th grade), 2 – 5th a 9th grado, 3 – educación secundaria or 4 – educación mas alta)
+9 Mjob - trabajo de la madre (nominal: "teacher", "health" care related, civil "services" (e.g. administrative or police), "at_home" or "other")
+10 Fjob - trabajo del padre (nominal: "teacher", "health" care related, civil "services" (e.g. administrative or police), "at_home" or "other")
+11 reason - razon para elegir colegio (nominal: close to "home", school "reputation", "course" preference or "other")
+12 guardian - tutor del estudinte (nominal: "mother", "father" or "other")
+13 traveltime - tiempo de viaje del hogar al colegio (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
+14 studytime - tiempo de estudio semanal (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
+15 failures - numero de fallos de clases anteriores (numeric: n if 1<=n<3, else 4)
+16 schoolsup - ayuda educativa adicional (binary: yes or no)
+17 famsup - apoyo educativo familiar (binary: yes or no)
+18 paid - clases adicionales pagados dentro de la temática del curso (Math or Portuguese) (binary: yes or no)
+19 activities - actividades extracurricular (binary: yes or no)
+20 nursery - asistencia de parvulos en colegio (binary: yes or no)
+21 higher - quiere tomar la educación superior (binary: yes or no)
+22 internet - Acceso de Internet en casa (binary: yes or no)
+23 romantic - Con una Relación Romantica (binary: yes or no)
+24 famrel - calidad relación familiar (numeric: from 1 - very bad to 5 - excellent)
+25 freetime - tiempo libre despues del colegio (numeric: from 1 - very low to 5 - very high)
+26 goout - salir con amigos (numeric: from 1 - very low to 5 - very high)
+27 Dalc - consumo de alcohol dia (numeric: from 1 - very low to 5 - very high)
+28 Walc - consumo de alcohol semana (numeric: from 1 - very low to 5 - very high)
+29 health - Estado de Salud Actual (numeric: from 1 - very bad to 5 - very good)
+30 absences - numero de ausencias colegio (numeric: from 0 to 93)
+
+# these grades are related with the course subject, Math or Portuguese:
+31 G1 - primer periodo grado (numeric: from 0 to 20)
+31 G2 - segundo periodo grado (numeric: from 0 to 20)
+32 G3 - grado finale (numeric: from 0 to 20, output target)
+
+
