@@ -1,0 +1,31 @@
+Tree
+higher = no
+|   schoolsup = no
+|   |   paid = no
+|   |   |   activities = no: false {false=35, true=13}
+|   |   |   activities = yes: false {false=31, true=13}
+|   |   paid = yes: false {false=1, true=0}
+|   schoolsup = yes: true {false=0, true=1}
+higher = yes
+|   paid = no
+|   |   activities = no
+|   |   |   famsup = no
+|   |   |   |   schoolsup = no: false {false=108, true=31}
+|   |   |   |   schoolsup = yes: false {false=3, true=3}
+|   |   |   famsup = yes
+|   |   |   |   schoolsup = no: false {false=170, true=28}
+|   |   |   |   schoolsup = yes: false {false=31, true=2}
+|   |   activities = yes
+|   |   |   schoolsup = no
+|   |   |   |   famsup = no: false {false=123, true=13}
+|   |   |   |   famsup = yes: false {false=169, true=31}
+|   |   |   schoolsup = yes
+|   |   |   |   famsup = no: false {false=9, true=3}
+|   |   |   |   famsup = yes: false {false=14, true=5}
+|   paid = yes
+|   |   activities = no
+|   |   |   famsup = no: false {false=13, true=5}
+|   |   |   famsup = yes: false {false=63, true=7}
+|   |   activities = yes
+|   |   |   famsup = no: false {false=14, true=5}
+|   |   |   famsup = yes: false {false=78, true=22}

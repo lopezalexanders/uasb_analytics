@@ -1,0 +1,29 @@
+Tree
+ausencia = false
+|   paid = no
+|   |   schoolsup = no
+|   |   |   Pstatus = A: false {false=13, true=10}
+|   |   |   Pstatus = T: false {false=35, true=21}
+|   |   schoolsup = yes: false {false=10, true=1}
+|   paid = yes
+|   |   schoolsup = no
+|   |   |   Pstatus = A: true {false=1, true=4}
+|   |   |   Pstatus = T: false {false=16, true=9}
+|   |   schoolsup = yes: true {false=0, true=4}
+ausencia = true
+|   nursery = no
+|   |   paid = no
+|   |   |   schoolsup = no
+|   |   |   |   Pstatus = A: false {false=9, true=4}
+|   |   |   |   Pstatus = T: false {false=84, true=37}
+|   |   |   schoolsup = yes: false {false=13, true=5}
+|   |   paid = yes
+|   |   |   schoolsup = no: false {false=26, true=6}
+|   |   |   schoolsup = yes: false {false=1, true=0}
+|   nursery = yes
+|   |   Pstatus = A
+|   |   |   schoolsup = no: false {false=62, true=6}
+|   |   |   schoolsup = yes: false {false=15, true=0}
+|   |   Pstatus = T
+|   |   |   schoolsup = no: false {false=495, true=88}
+|   |   |   schoolsup = yes: false {false=55, true=14}

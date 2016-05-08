@@ -1,0 +1,23 @@
+Tree
+sex = F
+|   internet = no
+|   |   schoolsup = no
+|   |   |   paid = no
+|   |   |   |   higher = no: false {false=12, true=1}
+|   |   |   |   higher = yes: false {false=87, true=3}
+|   |   |   paid = yes: false {false=14, true=0}
+|   |   schoolsup = yes: false {false=31, true=0}
+|   internet = yes
+|   |   higher = no
+|   |   |   paid = no: false {false=13, true=2}
+|   |   |   paid = yes: false {false=4, true=0}
+|   |   higher = yes
+|   |   |   paid = no: false {false=293, true=23}
+|   |   |   paid = yes: false {false=112, true=12}
+sex = M
+|   higher = no
+|   |   paid = no: false {false=25, true=24}
+|   |   paid = yes: false {false=2, true=0}
+|   higher = yes
+|   |   paid = no: false {false=209, true=83}
+|   |   paid = yes: false {false=54, true=40}

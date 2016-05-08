@@ -1,0 +1,11 @@
+Tree
+sex = F
+|   schoolsup = no
+|   |   paid = no: false {false=378, true=18}
+|   |   paid = yes: false {false=95, true=10}
+|   schoolsup = yes
+|   |   paid = no: false {false=71, true=13}
+|   |   paid = yes: false {false=18, true=1}
+sex = M
+|   higher = no: false {false=29, true=20}
+|   higher = yes: false {false=295, true=96}

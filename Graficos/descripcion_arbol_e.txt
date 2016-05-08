@@ -1,0 +1,15 @@
+Tree
+ausencia = false
+|   paid = no
+|   |   activities = no: false {false=34, true=8}
+|   |   activities = yes: false {false=32, true=13}
+|   paid = yes
+|   |   activities = no: true {false=5, true=7}
+|   |   activities = yes: false {false=6, true=2}
+ausencia = true
+|   activities = no
+|   |   paid = no: false {false=339, true=46}
+|   |   paid = yes: false {false=78, true=14}
+|   activities = yes
+|   |   paid = no: false {false=303, true=60}
+|   |   paid = yes: false {false=82, true=15}

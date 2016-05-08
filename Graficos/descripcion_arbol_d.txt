@@ -1,0 +1,21 @@
+Tree
+sex = F
+|   activities = no
+|   |   address = R: false {false=89, true=7}
+|   |   address = U: false {false=235, true=13}
+|   activities = yes
+|   |   address = R: false {false=71, true=5}
+|   |   address = U: false {false=169, true=17}
+sex = M
+|   schoolsup = no
+|   |   activities = no
+|   |   |   address = R: false {false=28, true=25}
+|   |   |   address = U: false {false=82, true=46}
+|   |   activities = yes
+|   |   |   address = R: false {false=40, true=19}
+|   |   |   address = U: false {false=117, true=51}
+|   schoolsup = yes
+|   |   activities = no: false {false=15, true=0}
+|   |   activities = yes
+|   |   |   address = R: false {false=4, true=0}
+|   |   |   address = U: false {false=7, true=4}

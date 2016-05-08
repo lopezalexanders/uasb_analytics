@@ -1,0 +1,15 @@
+Tree
+sex = F
+|   ausencia = false
+|   |   address = R: false {false=13, true=0}
+|   |   address = U: false {false=37, true=13}
+|   ausencia = true
+|   |   address = R: false {false=144, true=12}
+|   |   address = U: false {false=342, true=26}
+sex = M
+|   address = R
+|   |   ausencia = false: false {false=6, true=6}
+|   |   ausencia = true: true {false=54, true=63}
+|   address = U
+|   |   ausencia = false: true {false=14, true=22}
+|   |   ausencia = true: false {false=218, true=74}

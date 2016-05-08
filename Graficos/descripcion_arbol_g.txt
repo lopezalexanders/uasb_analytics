@@ -1,0 +1,11 @@
+Tree
+sex = F
+|   address = R
+|   |   famsup = no: false {false=47, true=4}
+|   |   famsup = yes: false {false=120, true=6}
+|   address = U
+|   |   famsup = no: false {false=122, true=10}
+|   |   famsup = yes: false {false=239, true=20}
+sex = M
+|   famsup = no: false {false=149, true=79}
+|   famsup = yes: false {false=174, true=74}
