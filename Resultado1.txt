@@ -1,0 +1,17 @@
+Analisis de datos 1
+
+Para comprobar si un estudiante es bebedor o no utilizamos la formula
+
+Alc = (Walc × 2 + Dalc × 5) / 7
+
+Al -> Consumo de alcohol semanalmente
+Dalc -> consumo de alcohol en el dia (numeric: desde 1 - muy bajo hasta 5 - muy alto)
+Walc -> consumo de alcohol en la semana (numeric: desde 1 - muy bajo hasta 5 - muy alto)
+
+El nuevo atributo también cambia entre uno y cinco.
+Con el fin de comprobar si un estudiante es un bebedor o no
+viene un valor binario si es inferior a 3 es 0 , que significa
+usted no es un bebedor, de lo contrario 1 (es bebedor)
+
+Generamos los graficos de Consumo de Alcohol segun Edad
+Generamos los graficos de Consumo de Alcohol segun Sexo

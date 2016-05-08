@@ -1,0 +1,16 @@
+Analisis de datos 3
+
+Para comprobar si un estudiante es bebedor o no utilizamos la formula
+
+Alc = (Walc × 2 + Dalc × 5) / 7
+
+Al -> Consumo de alcohol semanalmente
+Dalc -> consumo de alcohol en el dia (numeric: desde 1 - muy bajo hasta 5 - muy alto)
+Walc -> consumo de alcohol en la semana (numeric: desde 1 - muy bajo hasta 5 - muy alto)
+
+Si un estudiante con frecuencia hacen falta en la escuela , toma más
+alcohol que otros. Por lo tanto, este atributo se convierte en un valor binario , si lo hacen con frecuencia ausencia ( Más del 10
+días ) es 0 , de lo contrario el valor es 1. Podemos predecir ausencia
+
+Generamos varios arboles de desicion randomicos como base la tabla de estudiantes que beben
+El arbol de Desicion
